@@ -1,11 +1,60 @@
---2016-07-28 15:25:38--  https://gist.githubusercontent.com/sudhamshk/8810ee7821a157bd53b591c7edbc231e/raw/e1749006ed9f0cd997a4aa47da1110151a8942ee/gistfile2.txt
-Resolving gist.githubusercontent.com (gist.githubusercontent.com)... 151.101.100.133
-Connecting to gist.githubusercontent.com (gist.githubusercontent.com)|151.101.100.133|:443... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: 794 [text/plain]
-Saving to: ‘gistfile2.txt’
+localhost ansible_ssh_host=52.58.71.181 ansible_ssh_user=root ansible_ssh_private_key_file=/var/go/.ssh/id_rsa
 
-     0K                                                       100%  398M=0s
+[nagios-server]
 
-2016-07-28 15:25:39 (398 MB/s) - ‘gistfile2.txt’ saved [794/794]
+[bahmni-emr]
+localhost
 
+[bahmni-emr-db]
+localhost
+
+[bahmni-emr-db-slave]
+
+[bahmni-erp]
+
+[bahmni-erp-db]
+
+[bahmni-erp-db-slave]
+
+[bahmni-lab]
+
+[bahmni-lab-db]
+
+[bahmni-lab-db-slave]
+
+[bahmni-reports]
+localhost
+
+[pacs-integration]
+
+[pacs-integration-db]
+
+[pacs-integration-db-slave]
+
+[dcm4chee]
+
+[dcm4chee-db]
+
+[dcm4chee-db-slave]
+
+[bahmni-event-log-service]
+
+[local:children]
+nagios-server
+bahmni-emr
+bahmni-emr-db
+bahmni-emr-db-slave
+bahmni-lab
+bahmni-lab-db
+bahmni-lab-db-slave
+bahmni-erp
+bahmni-erp-db
+bahmni-erp-db-slave
+bahmni-reports
+pacs-integration
+pacs-integration-db
+pacs-integration-db-slave
+dcm4chee
+dcm4chee-db
+dcm4chee-db-slave
+bahmni-event-log-service
