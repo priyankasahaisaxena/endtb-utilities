@@ -3,8 +3,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <servers>
     <server>
-      <username>${env.CI_DEPLOY_USERNAME}</username>
-      <password>${env.CI_DEPLOY_PASSWORD}</password>
+      <username>$CI_DEPLOY_USERNAME</username>
+      <password>$CI_DEPLOY_PASSWORD</password>
       <id>bahmni-artifactory</id>
     </server>
     <server>
