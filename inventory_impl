@@ -3,10 +3,10 @@ localhost ansible_ssh_host=52.66.111.177 ansible_ssh_user=root ansible_ssh_priva
 [nagios-server]
 
 [bahmni-emr]
-localhost
+52.66.111.177
 
 [bahmni-emr-db]
-localhost
+52.66.111.177
 
 [bahmni-emr-db-slave]
 
@@ -23,7 +23,7 @@ localhost
 [bahmni-lab-db-slave]
 
 [bahmni-reports]
-localhost
+52.66.111.177
 
 [pacs-integration]
 
