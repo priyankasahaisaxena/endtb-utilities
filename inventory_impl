@@ -1,4 +1,4 @@
-localhost ansible_ssh_host=52.66.111.177 ansible_ssh_user=root ansible_ssh_private_key_file=/var/go/.ssh/id_rsa
+52.66.111.177 ansible_ssh_host=52.66.111.177 ansible_ssh_user=root ansible_ssh_private_key_file=/var/go/.ssh/id_rsa
 
 [nagios-server]
 
