@@ -1,9 +1,9 @@
-localhost ansible_ssh_host=52.66.111.177 ansible_ssh_user=root
+52.66.111.177 ansible_ssh_host=52.66.111.177 ansible_ssh_user=root
 
 [nagios-server]
 
 [bahmni-emr]
-localhost
+52.66.111.177
 
 [bahmni-emr-db]
 loclahost
@@ -23,7 +23,7 @@ loclahost
 [bahmni-lab-db-slave]
 
 [bahmni-reports]
-localhost
+52.66.111.177
 
 [pacs-integration]
 
