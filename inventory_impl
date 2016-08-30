@@ -1,12 +1,12 @@
-52.66.111.177 ansible_ssh_host=52.66.111.177 ansible_ssh_user=root ansible_ssh_private_key_file=/var/go/.ssh/id_rsa
+localhost ansible_ssh_host=52.66.111.177 ansible_ssh_user=root ansible_ssh_private_key_file=/var/go/.ssh/id_rsa
 
 [nagios-server]
 
 [bahmni-emr]
-52.66.111.177
+localhost
 
 [bahmni-emr-db]
-52.66.111.177
+loclahost
 
 [bahmni-emr-db-slave]
 
@@ -23,7 +23,7 @@
 [bahmni-lab-db-slave]
 
 [bahmni-reports]
-52.66.111.177
+localhost
 
 [pacs-integration]
 
