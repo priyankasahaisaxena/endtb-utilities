@@ -6,3 +6,4 @@ SSLCertificateKeyFilePath: /etc/letsencrypt/live/endtb-qa.mybahmni.org/privkey.p
 SSLCertificateChainFilePath: /etc/letsencrypt/live/endtb-qa.mybahmni.org/chain.pem
 omods: ["https://s3.amazonaws.com/endtb-artifacts/1.4/bahmniendtb-1.4-SNAPSHOT.omod", "https://modules.openmrs.org/modulus/api/releases/1458/download/dataintegrity-omod-4.0.omod", "https://s3.amazonaws.com/endtb-artifacts/1.4/bacteriology-1.0-SNAPSHOT.omod"]
 bahmniapps_url: http://s3.amazonaws.com/endtb-artifacts/1.4/40.1/bahmniapps.zip
+reports_save_dir: /home/bahmni/reports
