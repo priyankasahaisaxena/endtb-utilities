@@ -5,3 +5,4 @@ SSLCertificateFilePath: /etc/letsencrypt/live/endtb-pih.mybahmni.org/cert.pem
 SSLCertificateKeyFilePath: /etc/letsencrypt/live/endtb-pih.mybahmni.org/privkey.pem
 SSLCertificateChainFilePath: /etc/letsencrypt/live/endtb-pih.mybahmni.org/chain.pem
 omods: ["https://s3.amazonaws.com/endtb-artifacts/1.3/bahmniendtb-1.3-SNAPSHOT.omod", "https://s3.amazonaws.com/endtb-artifacts/1.3/bahmni-dataintegrity-omod-1.0-SNAPSHOT.omod"]
+bahmniapps_url: http://s3.amazonaws.com/endtb-artifacts/1.4/40.1/bahmniapps.zip
