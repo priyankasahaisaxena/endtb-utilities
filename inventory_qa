@@ -41,6 +41,8 @@ localhost
 
 [bahmni-offline]
 
+[bahmni-reports-db]
+
 [local:children]
 nagios-server
 bahmni-emr
